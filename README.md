@@ -12,4 +12,4 @@ ueditor深度整合phpcms由@流浪男免费提供，保护简洁版和高级版
 <?php echo form::editor('id', 'basic', 'module', '', '', 1, '', '',300,900)?><br />
 TTT:module为当前的模型，300为编辑器高度，900为宽度，留空将使用默认配置。<br />
 
-<img src="http://www.shandonglvyou.com/images/basic.jpg" />
+<img src="http://www.shandonglvyou.com/images/basiceditor.jpg" />
