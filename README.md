@@ -5,18 +5,7 @@ ueditor深度整合phpcms由@流浪男免费提供，保护简洁版和高级版
 使用说明：<br />
 1、将phpcms和statics目录上传到网站的根目录。<br />
 2、<pre>
-<span><</span>
-<span>textarea</span>
-<span>name</span>
-<span>=</span>
-<span>"name"</span>
-<span>id="id"</span>
-<span>></span>
-<span><</span>
-<span>/</span>
-<span>textarea</span>
-<span>></span>
-</pre><br />
+<span><</span><span>textarea</span><span>name</span><span>=</span><span>"name"</span><span>id="id"</span><span>></span><span><</span><span>/</span><span>textarea</span><span>></span></pre><br />
 //调用高级版本<br />
 <?php echo form::editor('id', 'full', 'module', '', '', 1, '', '',300,900)?><br />
 //简洁版本<br />
